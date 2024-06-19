@@ -1,10 +1,10 @@
 :root {
-  --body-color: #70fae4;
-  --primary-color: #70b7fa;
+  --body-color: rgb(0, 51, 102);
+  --primary-color: #fbf7c6;
   --secondary-color: red;
   --headerfooter-color: black;
-  --text-color: white;
-  --text-color2: black;
+  --text-color: #fff371;
+  --text-color2: rgb(0, 0, 0);
 }
 * {
   margin: 0;
@@ -30,7 +30,7 @@ header {
 }
 
 nav {
-  padding: 2rem 0;
+  padding: 0.5rem 0;
   text-decoration: none;
   font-size: 1.5rem;
   display: inline-block;
@@ -85,6 +85,7 @@ h1 {
 
 .gameResume {
   width: 40%;
+  color: var(--text-color2);
 }
 
 .gameResume > h1 {
@@ -123,43 +124,16 @@ h1 {
   position: relative;
   width: 100%;
   overflow: hidden;
-}
-
-.titleBanners {
-  padding: 2rem 0;
-}
-.carousel {
   white-space: nowrap;
-  transition: 0.5s ease-in-out;
 }
-
 .carouselBanner {
-  display: inline-block;
   width: 50%;
-  background: var(--primary-color);
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
 }
 .carouselBanner > img {
   width: 100%;
-}
-.carouselArrows {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carouselArrows button {
-  background-color: black;
-  color: white;
-  padding: 10rem 0.5rem;
-  cursor: pointer;
-}
-
-.carouselArrows button:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-.next {
-  position: relative;
-  left: 880px;
+  height: 280px;
 }
 
 .lastCharacters > h1 {
@@ -176,12 +150,14 @@ h1 {
   display: inline-block;
   width: 49.5%;
   height: 300px;
-  background-color: rgb(6, 91, 171);
+  background-color: var(--body-color);
   vertical-align: top;
   border-radius: 2rem;
+  color: var(--primary-color);
 }
-.artifacts {
-  background-color: rgb(171, 91, 6);
+
+.lastCharacters > h1 {
+  color: var(--body-color);
 }
 .character > img,
 .artifact > img {
@@ -237,9 +213,10 @@ h1 {
 }
 
 .form-container {
-  border: 1px solid #ddd;
+  border: 1px solid #4a5cd2;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #8998fd;
+  padding: 1rem;
 }
 
 h2 {
@@ -261,9 +238,7 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-  width: calc(
-    100% - 20px
-  ); /* Subtrai o padding para caber dentro do contêiner */
+  width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;

@@ -1,18 +1,3 @@
-/* <section>
-      <div class="container">
-        <h1 class="titleBanners">Banners atuais</h1>
-        <div class="carousel-container">
-          <div class="carouselBanner">
-            <img src="./img/characters/epic-sseven.webp" alt="" />
-          </div>
-        </div>
-        <div class="carouselArrows">
-          <button class="prev">&lt;</button>
-          <button class="next">&gt;</button>
-        </div>
-      </div>
-    </section>*/
-
 const carouselBanners = document.querySelectorAll(".carouselBanner")
 
 
@@ -46,3 +31,7 @@ document.querySelector(".prev").addEventListener("click", () => {
 
 
 updateCarouselBanners()
+
+
+
+//tenho que imprementar o codigo de mostrar em quais banners estao atraver da classe checked no html

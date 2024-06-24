@@ -18,15 +18,13 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
-          <ul>
-            <li><a class="logo" href="">EPIC SEVEN</a></li>
-            <li><a class="navLink" href="">Personagens</a></li>
-            <li><a class="navLink" href="">Tier list</a></li>
-            <li><a class="navLink" href="">Caçadas</a></li>
-            <li><a class="navLink" href="">Faça sua build</a></li>
-          </ul>
+      <div class="container container-header">
+        <div><a class="logo" href="">EPIC SEVEN</a></div>
+        <nav class="nav-header">
+          <a class="navLink" href="">Personagens</a>
+          <a class="navLink" href="">Tier list</a>
+          <a class="navLink" href="">Caçadas</a>
+          <a class="navLink" href="">Faça sua build</a>
         </nav>
       </div>
     </header>
@@ -61,51 +59,61 @@
     <section>
       <div class="container">
         <h1 class="titleBanners">Banners atuais</h1>
-        <div class="carousel-container">
-          <div class="carouselBanner">
-            <img src="./img/characters/epic-sseven.webp" alt="" />
+        <div class="carousel-container-and-indicators">
+          <div class="carousel-container">
+            <div class="carouselBanner">
+              <img src="./img/characters/epic-sseven.webp" alt="" />
+            </div>
+            <div class="carouselBanner">
+              <img src="./img/characters/banner2.jpeg" alt="" />
+            </div>
+            <div class="carouselBanner">
+              <img src="./img/characters/epic-sseven.webp" alt="" />
+            </div>
+            <div class="carouselBanner">
+              <img src="./img/characters/epic-sseven.webp" alt="" />
+            </div>
           </div>
-          <div class="carouselBanner">
-            <img src="./img/characters/banner2.jpeg" alt="" />
+          <div class="banners-indicators">
+            <button class="checked"></button>
+            <button></button>
+            <button></button>
+            <button></button>
           </div>
-          <div class="carouselBanner">
-            <img src="./img/characters/epic-sseven.webp" alt="" />
-          </div>
-          <div class="carouselBanner">
-            <img src="./img/characters/epic-sseven.webp" alt="" />
-          </div>
-        </div>
-        <div class="carouselArrows">
-          <button class="prev">&lt;</button>
-          <button class="next">&gt;</button>
         </div>
       </div>
     </section>
     <section>
-      <div class="container lastCharacters">
-        <h1>Ultimos</h1>
-        <div class="characters">
-          <h1 class="titleCharacters">Personagens lançados</h1>
-          <div class="character character1">
-            <img src="./img/characters/straze.jpg" alt="" />
+      <div class="container">
+        <h1 class="title last">Ultimos</h1>
+        <div class="tudo">
+          <div class="containerCharacters">
+            <h1 class="title titleCharacters">Personagens lançados</h1>
+            <div class="characters">
+              <div class="character">
+                <img src="./img/characters/straze.jpg" alt="" />
+              </div>
+              <div class="character">
+                <img src="./img/characters/straze.jpg" alt="" />
+              </div>
+              <div class="character">
+                <img src="./img/characters/straze.jpg" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="character">
-            <img src="./img/characters/straze.jpg" alt="" />
-          </div>
-          <div class="character">
-            <img src="./img/characters/straze.jpg" alt="" />
-          </div>
-        </div>
-        <div class="artifacts">
-          <h1 class="titleArtifacts">Artefatos lançados</h1>
-          <div class="artifact artifact1">
-            <img src="./img/characters/artefato.png" alt="" />
-          </div>
-          <div class="artifact">
-            <img src="./img/characters/artefato.png" alt="" />
-          </div>
-          <div class="artifact">
-            <img src="./img/characters/artefato.png" alt="" />
+          <div class="containerArtifacts">
+            <h1 class="title titleArtifacts">Artefatos lançados</h1>
+            <div class="artifacts">
+              <div class="artifact">
+                <img src="./img/characters/artefato.png" alt="" />
+              </div>
+              <div class="artifact">
+                <img src="./img/characters/artefato.png" alt="" />
+              </div>
+              <div class="artifact">
+                <img src="./img/characters/artefato.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -145,31 +153,33 @@
       </div>
     </section>
     <section>
-      <div class="container form-container">
-        <h2>Formulário de Sugestão ou Problema</h2>
-        <form action="#" method="post">
-          <label for="nome">Nome:</label>
-          <input disabled type="text" id="nome" name="nome" required />
+      <div class="container">
+        <div class="form-container">
+          <h2>Formulário de Sugestão ou Problema</h2>
+          <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
 
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required />
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
 
-          <label for="tipo">Tipo:</label>
-          <select id="tipo" name="tipo" required>
-            <option value="sugestao">Sugestão</option>
-            <option value="problema">Problema</option>
-          </select>
+            <label for="tipo">Tipo:</label>
+            <select id="tipo" name="tipo" required>
+              <option value="sugestao">Sugestão</option>
+              <option value="problema">Problema</option>
+            </select>
 
-          <label for="descricao">Descrição:</label>
-          <textarea
-            id="descricao"
-            name="descricao"
-            rows="5"
-            required
-          ></textarea>
+            <label for="descricao">Descrição:</label>
+            <textarea
+              id="descricao"
+              name="descricao"
+              rows="5"
+              required
+            ></textarea>
 
-          <button class="buttonFooter" type="submit">Enviar</button>
-        </form>
+            <button class="buttonFooter" type="submit">Enviar</button>
+          </form>
+        </div>
       </div>
     </section>
     <footer>

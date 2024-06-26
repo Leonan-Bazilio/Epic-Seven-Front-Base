@@ -1,0 +1,14 @@
+:root {
+  --body-color: rgb(0, 51, 102);
+  --primary-color: #fbf7c6;
+  --secondary-color: red;
+  --headerfooter-color: black;
+  --text-color1: #fff371;
+  --text-color2: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

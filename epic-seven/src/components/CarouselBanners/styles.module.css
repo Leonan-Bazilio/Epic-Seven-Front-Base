@@ -1,0 +1,18 @@
+.bannerImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+:root {
+  --swiper-navigation-color: red;
+  --swiper-pagination-color: black;
+}
+
+.title {
+  text-align: center;
+}
+
+.containerBanners {
+  background-color: var(--primary-color);
+}

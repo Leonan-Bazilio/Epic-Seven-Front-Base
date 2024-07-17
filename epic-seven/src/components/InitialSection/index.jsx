@@ -3,9 +3,9 @@ import img from "../../assets/images/Blood-Moon-Haste.png";
 export default function InitialSection() {
   return (
     <>
-      <section class={styles.initialSection}>
-        <div class={styles.container}>
-          <div class={styles.gameResume}>
+      <section className={styles.initialSection}>
+        <div className={styles.container}>
+          <div className={styles.gameResume}>
             <h1>Epic Seven</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nisi
@@ -25,7 +25,7 @@ export default function InitialSection() {
               </a>
             </button>
           </div>
-          <div class={styles.image}>
+          <div className={styles.image}>
             <img src={img} alt="" />
           </div>
         </div>

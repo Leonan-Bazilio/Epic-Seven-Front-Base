@@ -1,0 +1,38 @@
+.formContainer {
+  border: 1px solid var(--text-color2);
+  border-radius: 10px;
+  background-color: white;
+  color: var(--text-color2);
+  padding: 1rem;
+}
+h2 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid var(--text-color1);
+  border-radius: 0.5rem;
+}
+.buttonForm {
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.buttonForm:hover {
+  background-color: green;
+}

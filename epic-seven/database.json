@@ -1,0 +1,123 @@
+{
+  "characters": [
+    {
+      "characterName": "Immortal Wukong",
+      "releaseDate": "2024-07-23",
+      "characterImage": "tenho que achar a imagem q posso usar ainda",
+      "element": "Terra",
+      "characterClass": "Cavaleiro",
+      "sign": "Escorpião",
+      "qteStars": 5,
+      "skills": {
+        "skill1": {
+          "skillImage": "tenho que achar a imagem q posso usar ainda",
+          "levels": [
+            "Explicação para nível 1",
+            "Explicação para nível 2",
+            "Explicação para nível 3",
+            "Explicação para nível 4",
+            "Explicação para nível 5",
+            "Explicação para nível 6",
+            "Explicação para nível 7",
+            "Explicação para nível 8"
+          ]
+        },
+        "skill2": {
+          "skillImage": "tenho que achar a imagem q posso usar ainda",
+          "typeSkill": "Ativa",
+          "soulWinning": 2,
+          "burnEffect": {
+            "effect": "Texto adicional sobre efeito burn",
+            "costOfSouls": 10
+          },
+          "levels": [
+            "Explicação para nível 1",
+            "Explicação para nível 2",
+            "Explicação para nível 3",
+            "Explicação para nível 4",
+            "Explicação para nível 5",
+            "Explicação para nível 6",
+            "Explicação para nível 7",
+            "Explicação para nível 8"
+          ]
+        },
+        "skill3": {
+          "skillImage": "tenho que achar a imagem q posso usar ainda",
+          "levels": [
+            "Explicação para nível 1",
+            "Explicação para nível 2",
+            "Explicação para nível 3",
+            "Explicação para nível 4",
+            "Explicação para nível 5",
+            "Explicação para nível 6",
+            "Explicação para nível 7",
+            "Explicação para nível 8"
+          ]
+        }
+      },
+      "memoryImprint": {
+        "release": {
+          "d": null,
+          "c": null,
+          "b": "ataque +4.3%",
+          "a": "ataque +6.5%",
+          "s": "ataque +8.6%",
+          "ss": "ataque +10.7%",
+          "sss": "ataque +12%"
+        },
+        "concentration": {
+          "d": null,
+          "c": null,
+          "b": "ataque +6%",
+          "a": "ataque +9%",
+          "s": "ataque +12%",
+          "ss": "ataque +15%",
+          "sss": "ataque +18%"
+        }
+      },
+      "attributes": {
+        "base": {
+          "attack": 778,
+          "defence": 469,
+          "health": 4427,
+          "speed": 102,
+          "criticalHitChance": 15,
+          "criticalHitDamage": 150,
+          "effectiveness": 0,
+          "effectResistance": 0,
+          "dualAttackChance": 3
+        },
+        "full": {
+          "attack": 1208,
+          "defence": 616,
+          "health": 6488,
+          "speed": 102,
+          "criticalHitChance": 15,
+          "criticalHitDamage": 150,
+          "effectiveness": 0,
+          "effectResistance": 0,
+          "dualAttackChance": 3
+        }
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "artifactName": "Artefato do Immortal Wukong",
+      "releaseDate": "2024-07-23",
+      "artifactImage": "tenho que achar a imagem q posso usar ainda",
+      "artifactClass": "Cavaleiro",
+      "qteStars": 5,
+      "description": "Descrição aleatória do artefato"
+    }
+  ],
+  "banners": [
+    {
+      "startDate": "2024-08-01",
+      "endDate": "2024-08-31",
+      "imageBanner": "tenho que achar a imagem q posso usar ainda",
+      "characterBanner": "Immortal Wukong",
+      "artifactBanner": "Artefato do Immortal Wukong"
+    }
+  ]
+}
